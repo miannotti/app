@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-st.set_page_config(page_title=Churn What-If Tool, layout=centered)
+st.set_page_config(page_title=Churn What-If Tool, layout="centered")
 
 @st.cache_resource
 def load_model()

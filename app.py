@@ -10,7 +10,7 @@ def load_model():
 
 model = load_model()
 
-st.title(Churn What-If Tool)
+st.title("Churn What-If Tool")
 st.write(Adjust the customer profile and inspect the predicted churn risk.)
 
 total_trans_ct = st.slider(Total Transactions, 0, 150, 50)

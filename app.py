@@ -5,10 +5,10 @@ import pandas as pd
 st.set_page_config(page_title="Churn What-If Tool", layout="centered")
 
 @st.cache_resource
-def load_model()
+def load_model():
     return joblib.load(tree_model.pkl)
 
-model = load_model():
+model = load_model()
 
 st.title(Churn What-If Tool)
 st.write(Adjust the customer profile and inspect the predicted churn risk.)
